@@ -1,21 +1,17 @@
-MIT License
+Production Engine for Claude
+Copyright (c) 2026 Geared Like A Machine LLC. All rights reserved.
 
-Copyright (c) 2026 Geared Like A Machine LLC
+This plugin connects Claude to the Production Engine service at
+https://production-engine.com. You may install and use it to connect to a
+Production Engine workspace you are authorized to use. Use of the service
+requires a Production Engine account and is governed by the Production Engine
+Terms of Service at https://production-engine.com/terms.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You may not copy, modify, redistribute, sublicense or sell this plugin, its
+instructions or its icon, except as needed to install and use it as described
+above. "Production Engine" and the PE mark are trademarks of Geared Like A
+Machine LLC.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL
+GEARED LIKE A MACHINE LLC BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+ARISING FROM THE USE OF THE PLUGIN, EXCEPT AS PROVIDED IN THE TERMS OF SERVICE.

@@ -1,44 +1,77 @@
-# Production Engine for Claude
+<p align="center">
+  <img src=".claude-plugin/icon.svg" width="72" height="72" alt="Production Engine">
+</p>
 
-Production Engine is production management for commercial film and photo companies. This plugin connects Claude to your Production Engine workspace, so you can ask about your productions in plain language and get answers from your live data.
+<h1 align="center">Production Engine for Claude</h1>
 
-## What you can ask
+<p align="center">
+  Ask Claude about your productions and get answers from your live Production Engine workspace.<br>
+  Call times, crew paperwork, budgets, deliverables, money and bids, in plain language.
+</p>
 
-- What's shooting and due this week, across every job?
-- Is this job in trouble? What's blocking it?
-- Who's called on the next shoot day, and where?
-- Who still owes paperwork, and what do we owe crew?
-- Are we over budget, and where?
-- What's late, due soon or waiting on the client?
-- Who owes us, and what do we owe?
-- Where do our open bids stand?
+<p align="center">
+  <a href="https://production-engine.com">Website</a> ·
+  <a href="https://production-engine.com/connect">Setup guide</a> ·
+  <a href="https://production-engine.com/pricing">Pricing</a> ·
+  <a href="https://production-engine.com/privacy">Privacy</a>
+</p>
 
-With your approval, Claude can also price a new job from a plain description. It starts a draft estimate in Production Engine and gives you a link when it's ready.
+---
 
-## What's in the plugin
+[Production Engine](https://production-engine.com) is production management for commercial film and photo companies: estimating on your own rate card, scheduling, call sheets, crew, budgets, invoicing and wrap, in one place. This plugin puts that workspace inside Claude, Claude Code and Cowork.
 
-- **A connector** to Production Engine at `https://production-engine.com/api/mcp`.
-- **A skill** that tells Claude which Production Engine tool answers which question.
+> **A Production Engine subscription is required.** The plugin is a secure connection to your own workspace. It holds no data and does nothing on its own. New companies can [start a free trial](https://production-engine.com/pricing) and connect in a few minutes.
 
-The plugin runs no code on your computer.
+## Ask Claude things like
 
-## Getting connected
+| You ask | Claude answers from |
+|---|---|
+| "What's shooting and due this week?" | Every job's shoot days, deliverables, tasks, holds and permits |
+| "Is the Northstar job in trouble?" | Risks, blockers and readiness for that job |
+| "Who's called on Thursday, and where?" | The call sheet: call times, crew, locations and gear |
+| "Who still owes paperwork?" | Start packets, deal memos and what you owe crew |
+| "Are we over budget, and where?" | Budget vs. actuals, burn rate and forecast |
+| "What's late or waiting on the client?" | Deliverables, due dates and review status |
+| "Who owes us, and what do we owe?" | Receivables and payables by age, plus cash if your bank is connected |
+| "Where do our open bids stand?" | The bid pipeline and forecast |
 
-You need a Production Engine account, and you must be an owner or admin of the workspace on an active or trial plan. The first time Claude uses the plugin, Production Engine's sign-in page opens. Sign in, check the workspace, and click Allow. There is no token to copy. Pricing new jobs is a separate permission you can approve on the same screen.
+**Price a new job.** Describe a shoot and Claude starts a draft estimate in Production Engine, built on your own rates, then brings back the price paths and a link. This is a separate permission, and Claude asks before each estimate.
 
-Step-by-step setup for Claude and ChatGPT: https://production-engine.com/connect
+## How it works
 
-## What it can read and change
+- **Sign in, click Allow.** The first time Claude uses the plugin, Production Engine's sign-in page opens. There is no API key or token to copy.
+- **Owners and admins only.** Only a workspace owner or admin can connect, and only on an active or trial plan. If a plan lapses, the connection stops working.
+- **Read-only by default.** Claude reads your workspace. The only thing it can create is a draft estimate, and only if you approved pricing.
+- **Nothing runs on your computer.** The plugin is a connector setting and a set of instructions for Claude. All work happens on production-engine.com.
 
-Claude reads projects, budgets, actuals, purchase orders, invoices, vendors, contacts, schedules, crew, deliverables and bids, plus the bank feed and Saturation imports if your workspace has connected them. The only thing it can create is a draft estimate, and only if you approved pricing. Claude asks before it starts one. Everything else is changed in the Production Engine app.
+## Install
+
+**From the Claude directory:** search for **Production Engine** and click Connect. *(Listing in review.)*
+
+**In Claude Code:**
+
+```
+/plugin marketplace add joeyarcisz/production-engine-claude-plugin
+/plugin install production-engine@production-engine
+```
+
+**Claude.ai, desktop or mobile:** Settings > Connectors > Add custom connector, and paste `https://production-engine.com/api/mcp`.
+
+Full steps for Claude and ChatGPT: [production-engine.com/connect](https://production-engine.com/connect)
 
 ## Data and privacy
 
-The plugin sends requests only to production-engine.com. What Claude reads goes to Anthropic as part of your conversation. Production Engine records when each connection was last used. To disconnect, open Production Engine, go to Company Settings > Integrations, and disconnect Claude.
+- Requests go only to production-engine.com, over HTTPS.
+- What Claude reads becomes part of your conversation with Claude, under Anthropic's terms.
+- Production Engine records when each connection was last used. It does not store your conversations.
+- Disconnect any time in Production Engine under **Company Settings > Integrations**.
 
-- Privacy policy: https://production-engine.com/privacy
-- Support: intake@production-engine.com
+[Privacy policy](https://production-engine.com/privacy) · [Terms](https://production-engine.com/terms)
 
-## License
+## Support
 
-MIT. See [LICENSE](LICENSE).
+Email [intake@production-engine.com](mailto:intake@production-engine.com) or visit [production-engine.com/connect](https://production-engine.com/connect).
+
+---
+
+© 2026 Geared Like A Machine LLC. Production Engine is a trademark of Geared Like A Machine LLC. See [LICENSE](LICENSE).
