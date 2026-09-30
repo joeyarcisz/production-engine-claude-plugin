@@ -10,5 +10,13 @@
   "homepage": "https://production-engine.com/connect",
   "repository": "https://github.com/joeyarcisz/production-engine-claude-plugin",
   "license": "MIT",
-  "keywords": ["production", "video", "call sheet", "budget", "estimate"]
+  "keywords": [
+    "production",
+    "video",
+    "call sheet",
+    "budget",
+    "estimate"
+  ],
+  "icon": "./.claude-plugin/icon.svg",
+  "privacyPolicyUrl": "https://production-engine.com/privacy"
 }
