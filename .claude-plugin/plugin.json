@@ -18,5 +18,8 @@
     "estimate"
   ],
   "icon": "./.claude-plugin/icon.svg",
-  "privacyPolicyUrl": "https://production-engine.com/privacy"
+  "privacyPolicyUrl": "https://production-engine.com/privacy",
+  "supportUrl": "https://production-engine.com/connect",
+  "documentationUrl": "https://production-engine.com/connect",
+  "termsOfServiceUrl": "https://production-engine.com/terms"
 }
