@@ -1,0 +1,17 @@
+{
+  "name": "production-engine",
+  "owner": {
+    "name": "Geared Like A Machine LLC",
+    "email": "joey@gearedlikeamachine.com"
+  },
+  "metadata": {
+    "description": "The Claude plugin for Production Engine, production management for commercial film and photo companies."
+  },
+  "plugins": [
+    {
+      "name": "production-engine",
+      "source": "./",
+      "description": "Ask Claude about your productions: this week's shoots, job health, call times, crew paperwork, budgets, deliverables, money and bids. With your approval, Claude can also price a new job."
+    }
+  ]
+}

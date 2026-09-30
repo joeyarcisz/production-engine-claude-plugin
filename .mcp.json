@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "production-engine": {
+      "type": "http",
+      "url": "https://production-engine.com/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "production-engine",
+  "version": "0.3.0",
+  "description": "Ask Claude about your productions: what's shooting this week, job health, shoot days, crew paperwork, budgets, deliverables, who owes what and your bid pipeline. With your approval, Claude can also price a new job from a description.",
+  "author": {
+    "name": "Geared Like A Machine LLC",
+    "email": "joey@gearedlikeamachine.com",
+    "url": "https://production-engine.com"
+  },
+  "homepage": "https://production-engine.com/connect",
+  "repository": "https://github.com/joeyarcisz/production-engine-claude-plugin",
+  "license": "MIT",
+  "keywords": ["production", "video", "call sheet", "budget", "estimate"]
+}
