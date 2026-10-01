@@ -1,6 +1,6 @@
 {
   "name": "production-engine",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Ask Claude about your productions: what's shooting this week, job health, shoot days, crew paperwork, budgets, deliverables, who owes what and your bid pipeline. With your approval, Claude can also price a new job from a description.",
   "author": {
     "name": "Geared Like A Machine LLC",
@@ -24,7 +24,7 @@
   ],
   "icon": "./.claude-plugin/icon.svg",
   "privacyPolicyUrl": "https://production-engine.com/privacy",
-  "supportUrl": "https://production-engine.com/connect",
+  "supportUrl": "https://production-engine.com/developers/support",
   "documentationUrl": "https://production-engine.com/connect",
   "termsOfServiceUrl": "https://production-engine.com/terms"
 }

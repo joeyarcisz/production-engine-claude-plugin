@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Email **security@production-engine.com** with a description of the issue and steps to reproduce it. Please do not share details publicly until we have responded.
+Email **intake@production-engine.com** with "Security" in the subject, a description of the issue and steps to reproduce it. Please do not share details publicly until we have responded.
 
 We will confirm we received your report and keep you updated until it is resolved.
 
