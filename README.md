@@ -42,6 +42,7 @@
 - **Sign in, click Allow.** The first time Claude uses the plugin, Production Engine's sign-in page opens. There is no API key or token to copy.
 - **Owners and admins only.** Only a workspace owner or admin can connect, and only on an active or trial plan. If a plan lapses, the connection stops working.
 - **Read-only by default.** Claude reads your workspace. The only thing it can create is a draft estimate, and only if you approved pricing.
+- **Protected.** One workspace per connection, a request budget on every connection and a cap on estimates. See [SECURITY.md](SECURITY.md).
 - **Nothing runs on your computer.** The plugin is a connector setting and a set of instructions for Claude. All work happens on production-engine.com.
 
 ## Install
@@ -70,7 +71,7 @@ Full steps for Claude and ChatGPT: [production-engine.com/connect](https://produ
 
 ## Support
 
-Email [intake@production-engine.com](mailto:intake@production-engine.com) or visit [production-engine.com/connect](https://production-engine.com/connect).
+Email [intake@production-engine.com](mailto:intake@production-engine.com) or visit [production-engine.com/connect](https://production-engine.com/connect). To report a security issue, see [SECURITY.md](SECURITY.md).
 
 ---
 
